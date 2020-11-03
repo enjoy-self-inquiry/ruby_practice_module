@@ -20,7 +20,7 @@ class DVD < Product
     @running_time = running_time
   end
 
-  #DVDクラスで、さらにto_sメソッドをオーバーライド。superを使ってスーパークラス（Prodcutクラス)のメソッドを活用している。
+  #DVDクラスで、さらにto_sメソッドをオーバーライド。superを使ってスーパークラス（Prodcutクラス)のメソッドを活用
   def to_s
     "#{super}, running_time: #{running_time}"
   end
